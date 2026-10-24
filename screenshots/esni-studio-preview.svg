@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090e17"/>
+      <stop offset="100%" stop-color="#101826"/>
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#162236"/>
+      <stop offset="100%" stop-color="#0f1725"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="700" fill="url(#bg)" />
+
+  <!-- Studio Frame -->
+  <rect x="30" y="30" width="1140" height="640" rx="12" fill="#0d1522" stroke="#243550" stroke-width="2" />
+
+  <!-- Window Header -->
+  <rect x="30" y="30" width="1140" height="52" rx="12" fill="#121d2d" />
+  <circle cx="60" cy="56" r="7" fill="#ff5f56" />
+  <circle cx="85" cy="56" r="7" fill="#ffbd2e" />
+  <circle cx="110" cy="56" r="7" fill="#27c93f" />
+
+  <!-- Title -->
+  <text x="140" y="62" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="16" font-weight="bold">
+    🛡️ SCTE224ESNIForge Pro v1.0.0 — SCTE 224 (ESNI) Blackout &amp; Program Rights Studio
+  </text>
+  <rect x="990" y="44" width="160" height="26" rx="6" fill="#10b981" fill-opacity="0.15" stroke="#10b981" stroke-width="1" />
+  <text x="1005" y="62" fill="#10b981" font-family="monospace" font-size="12" font-weight="bold">10/10 PASS • CERTIFIED</text>
+
+  <!-- Nav Tabs -->
+  <rect x="50" y="102" width="1100" height="42" rx="8" fill="#101826" stroke="#1f2d47" stroke-width="1" />
+  <rect x="54" y="106" width="270" height="34" rx="6" fill="#38bdf8" fill-opacity="0.2" stroke="#38bdf8" stroke-width="1.5" />
+  <text x="75" y="128" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="13" font-weight="bold">1. Event Scheduling &amp; ESNI XML</text>
+  
+  <text x="360" y="128" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="13">2. Audience &amp; Entitlement Simulator</text>
+  <text x="660" y="128" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="13">3. SCTE-35 Blackout Bridge</text>
+  <text x="930" y="128" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="13">4. 10-Point Normative Auditor</text>
+
+  <!-- Left Column: MediaPoint & Schedule Config -->
+  <rect x="50" y="162" width="530" height="485" rx="10" fill="url(#cardGrad)" stroke="#22334f" stroke-width="1" />
+  <text x="75" y="196" fill="#38bdf8" font-family="-apple-system, sans-serif" font-size="16" font-weight="bold">MediaPoint &amp; Schedule Configuration</text>
+
+  <text x="75" y="235" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="12">Media Resource URN &amp; Trigger ID:</text>
+  <rect x="75" y="245" width="480" height="35" rx="6" fill="#0b121e" stroke="#2a3d5e" stroke-width="1" />
+  <text x="90" y="268" fill="#e2e8f0" font-family="monospace" font-size="12">urn:linear:channel:sports-hd:event-4091</text>
+
+  <text x="75" y="305" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="12">Event Description &amp; Match Signal:</text>
+  <rect x="75" y="315" width="300" height="35" rx="6" fill="#0b121e" stroke="#2a3d5e" stroke-width="1" />
+  <text x="90" y="338" fill="#e2e8f0" font-family="sans-serif" font-size="12">Premier League Regional Blackout</text>
+  <rect x="395" y="315" width="160" height="35" rx="6" fill="#0b121e" stroke="#2a3d5e" stroke-width="1" />
+  <text x="410" y="338" fill="#38bdf8" font-family="monospace" font-size="12">SPLICE (SCTE 35)</text>
+
+  <text x="75" y="375" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="12">Duration &amp; Policy Action:</text>
+  <rect x="75" y="385" width="230" height="35" rx="6" fill="#0b121e" stroke="#2a3d5e" stroke-width="1" />
+  <text x="90" y="408" fill="#e2e8f0" font-family="monospace" font-size="13">PT7200S (2.0 Hours)</text>
+  <rect x="325" y="385" width="230" height="35" rx="6" fill="#0b121e" stroke="#2a3d5e" stroke-width="1" />
+  <text x="340" y="408" fill="#f43f5e" font-family="monospace" font-size="13" font-weight="bold">Action: Blackout</text>
+
+  <rect x="75" y="445" width="480" height="80" rx="8" fill="#0b121e" stroke="#243450" stroke-width="1" />
+  <text x="90" y="470" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="11">ALTERNATE CONTENT SLATE TARGET</text>
+  <text x="90" y="498" fill="#f43f5e" font-family="monospace" font-size="13">https://cdn.broadcaster.com/slates/blackout_1080p.m3u8</text>
+
+  <rect x="75" y="550" width="230" height="40" rx="6" fill="url(#headerGrad)" />
+  <text x="120" y="575" fill="#040810" font-family="-apple-system, sans-serif" font-size="13" font-weight="bold">Generate ESNI XML</text>
+
+  <!-- Right Column: ESNI XML & Decision Preview -->
+  <rect x="600" y="162" width="550" height="485" rx="10" fill="url(#cardGrad)" stroke="#22334f" stroke-width="1" />
+  <text x="625" y="196" fill="#38bdf8" font-family="-apple-system, sans-serif" font-size="16" font-weight="bold">Normative SCTE 224 XML Payload</text>
+
+  <!-- Metric Badges -->
+  <rect x="625" y="215" width="240" height="75" rx="8" fill="#0b121e" stroke="#243450" stroke-width="1" />
+  <text x="640" y="238" fill="#7d91b0" font-family="-apple-system, sans-serif" font-size="11">SCTE 224 XML SCHEMA</text>
+  <text x="640" y="268" fill="#10b981" font-family="monospace" font-size="18" font-weight="bold">urn:scte:224:2018</text>
+
+  <rect x="885" y="215" width="240" height="75" rx="8" fill="#0b121e" stroke="#243450" stroke-width="1" />
+  <text x="900" y="238" fill="#7d91b0" font-family="-apple-system, sans-serif" font-size="11">ENTITLEMENT DECISION</text>
+  <text x="900" y="268" fill="#f43f5e" font-family="monospace" font-size="18" font-weight="bold">BLACKOUT (403)</text>
+
+  <!-- XML Code Block: MediaPoint -->
+  <text x="625" y="315" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="11">&lt;MediaPoint&gt; XML STRUCTURE (SCTE 224 § 6.2):</text>
+  <rect x="625" y="325" width="500" height="135" rx="6" fill="#070c14" stroke="#243450" stroke-width="1" />
+  <text x="635" y="348" fill="#38bdf8" font-family="monospace" font-size="11">&lt;MediaPoint xmlns="urn:scte:224:2018"</text>
+  <text x="635" y="366" fill="#cbd5e1" font-family="monospace" font-size="11">  id="urn:linear:channel:sports-hd:mp-4091-start"</text>
+  <text x="635" y="384" fill="#cbd5e1" font-family="monospace" font-size="11">  matchSignal="SPLICE" duration="PT7200S"&gt;</text>
+  <text x="635" y="402" fill="#cbd5e1" font-family="monospace" font-size="11">  &lt;Apply id="urn:scte:224:policy:uk-tier1-blackout"/&gt;</text>
+  <text x="635" y="420" fill="#38bdf8" font-family="monospace" font-size="11">&lt;/MediaPoint&gt;</text>
+
+  <!-- Decision Banner -->
+  <rect x="625" y="480" width="500" height="55" rx="8" fill="#f43f5e" fill-opacity="0.15" stroke="#f43f5e" stroke-width="1" />
+  <text x="645" y="512" fill="#f43f5e" font-family="-apple-system, sans-serif" font-size="14" font-weight="bold">⛔ BLACKOUT ENFORCED — Viewer in London SW1A (DMA 803)</text>
+
+  <!-- SCTE-35 Tag Preview -->
+  <text x="625" y="565" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="11">SCTE-35 BRIDGE / HLS #EXT-X-DATERANGE INGEST:</text>
+  <rect x="625" y="575" width="500" height="50" rx="6" fill="#070c14" stroke="#243450" stroke-width="1" />
+  <text x="635" y="595" fill="#10b981" font-family="monospace" font-size="10">#EXT-X-DATERANGE:ID="esni-blackout-4091",START-DATE="2026-10-09T16:00:00Z",</text>
+  <text x="635" y="612" fill="#10b981" font-family="monospace" font-size="10">PLANNED-DURATION=7200.000,SCTE35-CMD=0x06,SCTE35-OUT=0x00302400...</text>
+</svg>
